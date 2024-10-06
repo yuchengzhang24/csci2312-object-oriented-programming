@@ -15,7 +15,7 @@ int main(){ //pop back - note it deletes element
     vec.pop_back(); //removes last element (5)
     cout << "After pop_back: ";
     for (int i = 0; i < vec.size(); i++){
-        cout << vec [i]; 
+        cout << vec [i] << " "; 
     }
     cout << endl;
 
