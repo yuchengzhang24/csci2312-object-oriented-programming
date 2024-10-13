@@ -1,18 +1,18 @@
 #ifndef STUDENT_H
-#define Student_H
+#define STUDENT_H
 
 #include <iostream>
 using namespace std;
 
 class Student {
-  public: 
+  private: 
     string firstName; 
     string lastName;
     int studentID;
     int grades[10];
     int numberOfScores;
     float GPA;
-  private: 
+  public: 
     //Constructors
     Student();
     Student (string aFirstName, string aLastName, int aStudentID);
@@ -21,21 +21,17 @@ class Student {
     const string getLastName();
     const int getStudentID();
     const float getGrades();
-    const float getNumberOfScores();
+    const int getNumberOfScores();
     const float getGPA();
     //Setters 
     void setFirstName(string aFirstName);
     void setLastName(string aLastName);
-    void setStudentID(string aStudentID);
+    void setStudentID(int aStudentID);
     void setGrades();
     //Other Methods
     void displayStudent();
     void setStudent(string aFirstName, string aLastName, int aStudentID);
     float calculateGPA();
-
-}
+};
  
-
-
-
 #endif 
