@@ -15,7 +15,7 @@ int main(){
   // Output the character back to the console with put 
   cout << "You entered: ";
   cout.put(ch);    // Use put to output the character 
-  cout.put('\n');   // Output a newline character 
+  cout.put('\n');   // Output a newline character -- Single quotes means it is a single character 
 
   return 0;
 }
