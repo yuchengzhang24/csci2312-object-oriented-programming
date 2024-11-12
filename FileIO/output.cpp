@@ -12,7 +12,7 @@ int main(){
   }
 
   file << "Hello world" << endl;
-  file << "how are you today";
+  file << "how are you today" << endl;
   file << "I am fine";
   file.close();
   return 0;
