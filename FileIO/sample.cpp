@@ -57,7 +57,7 @@ int main(){
       total = stof(temp);
 
       totalEarned += earned;
-      totalPoints =+ total;
+      totalPoints += total;
 
       cout << "  Task: " << task << " , Earned Points: " << earned << " , Total Points: " << total << "\n";
       getline(file, line);
